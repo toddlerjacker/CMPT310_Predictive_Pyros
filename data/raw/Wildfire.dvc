@@ -1,0 +1,14 @@
+md5: b565efdc4bf280afe16e30d03b59b559
+frozen: true
+deps:
+- md5: ec99596af70eea57132cea7846ffeb00.dir
+  size: 820773365
+  nfiles: 3034
+  hash: md5
+  path: gs://cmpt310/Wildfire
+outs:
+- md5: cd78ce23543dc1853614b86c3af68cd0.dir
+  size: 820773365
+  nfiles: 3034
+  hash: md5
+  path: Wildfire
