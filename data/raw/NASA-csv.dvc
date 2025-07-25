@@ -1,0 +1,14 @@
+md5: 5c681741203c38251c801e3658d9382a
+frozen: true
+deps:
+- md5: c6b4697fb361d5e7c3232b4400a31447.dir
+  size: 327878274
+  nfiles: 8
+  hash: md5
+  path: gs://cmpt310/NASA-csv
+outs:
+- md5: 20f992e179639b5a3c978ed0c8258dd6.dir
+  size: 327878274
+  nfiles: 8
+  hash: md5
+  path: NASA-csv
