@@ -21,7 +21,7 @@ __pycache__/
 # ─── RAW DATA ───────────────────────────────────────────────────────────────
 # ignore all contents under data/raw
 data/raw/**
-
+/2015,2016,2018,2021/
 *.zip
 year/
 # but *do not* ignore any Python or DVC files in there:
