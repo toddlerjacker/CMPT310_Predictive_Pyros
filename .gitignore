@@ -18,7 +18,15 @@ __pycache__/
 
 # ─── Data & archives ──────────────────────────────────────────────────────────
 # large raw data (DVC‑tracked)
-data/raw/nasa_dataset/
-data/raw/Wildfire/         # if you also DVC‑track your Wildfire folder
+# ─── RAW DATA ───────────────────────────────────────────────────────────────
+# ignore all contents under data/raw
+data/raw/**
+
 *.zip
 year/
+# but *do not* ignore any Python or DVC files in there:
+!/data/raw/**/*.py
+!/data/raw/*.py
+!/data/raw/**/*.dvc
+!/data/raw/*.dvc
+
