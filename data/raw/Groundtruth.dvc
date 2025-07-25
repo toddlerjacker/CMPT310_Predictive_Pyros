@@ -1,0 +1,14 @@
+md5: 5d42b0179192da1568d80db84b0c8839
+frozen: true
+deps:
+- md5: 33bb9cd9817a7b67206780c7fd1afe8c.dir
+  size: 35533818
+  nfiles: 1
+  hash: md5
+  path: gs://cmpt310/Groundtruth
+outs:
+- md5: 3f84b607e9e8643a8887d8290093869b.dir
+  size: 35533818
+  nfiles: 1
+  hash: md5
+  path: Groundtruth
