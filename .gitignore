@@ -1,0 +1,24 @@
+# ─── Environment ──────────────────────────────────────────────────────────────
+# Python virtual environments
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_ystore.db
+
+# IDE/project files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ─── Data & archives ──────────────────────────────────────────────────────────
+# large raw data (DVC‑tracked)
+data/raw/nasa_dataset/
+data/raw/Wildfire/         # if you also DVC‑track your Wildfire folder
+*.zip
+year/
